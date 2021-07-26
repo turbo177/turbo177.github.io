@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+input {
+    box-shadow: none;
+    outline:none;
+}
+body{
+    /* 背景图片样式 */
+    background-image: url(img/登录背景图.png);
+    background-repeat: no-repeat;
+}
+.title {
+    color: #bdeaf1;
+    font-size: 120px;
+    margin-left: 1350px;
+    margin-top: 90px;
+}
+.text {
+    margin-left: 1462px;
+    font-size: 25px;
+}
+#choose {
+    margin-left: 1680px;
+    margin-top: 20px;
+}
+#choose a {
+    color: #69c6d6;
+    font-size: 18px;
+}
+/* .emailbox {
+    color: #69c6d6;
+    width: 200px;
+    height: 30px;
+    margin-left: 1500px;
+} */
+#email {
+    border:2px solid #69c6d6;
+    border-radius: 50px;
+    width: 340px;
+    height: 45px;
+    margin-left: 1390px;
+    margin-top: 20px;
+}
+#codein {
+    border:2px solid #69c6d6;
+    border-radius: 50px;
+    width: 220px;
+    height: 45px;
+    margin-left: 1390px;
+    margin-top: 20px;
+}
+#btn-code {
+    background-color: #87deee;
+    border:2px solid #87deee;
+    font-size: 15px;
+    color: #fff;
+    border:2px solid #69c6d6;
+    border-radius: 50px;
+    width: 100px;
+    height: 45px;
+    margin-left: 15px;
+}
+#btn-login {
+    background-color: #87deee;
+    border:2px solid #87deee;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    width: 340px;
+    height: 45px;
+    margin-left: 1390px;
+    margin-top: 20px;
+}
+.nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.nav ul li {
+    display: contents;
+}
+.nav ul li a {
+    color: #919296;
+    font-size: 18px;
+}
